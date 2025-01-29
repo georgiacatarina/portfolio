@@ -35,10 +35,12 @@
 }
 
 .nav a:hover {
+  background-color: var(--colors-blue);
   background-image: linear-gradient(
-    135deg,
-    var(--colors-pink) 0%,
-    var(--colors-purple) 100%
+    43deg,
+    var(--colors-blue) 0%,
+    var(--colors-pink) 46%,
+    var(--colors-yellow) 100%
   );
   background-size: 100%;
   background-clip: text;
@@ -47,10 +49,12 @@
 }
 
 .gradientText {
+  background-color: var(--colors-blue);
   background-image: linear-gradient(
-    135deg,
-    var(--colors-pink) 0%,
-    var(--colors-purple) 100%
+    43deg,
+    var(--colors-blue) 0%,
+    var(--colors-pink) 46%,
+    var(--colors-yellow) 100%
   );
   background-size: 100%;
   background-clip: text;
@@ -62,11 +66,14 @@
 .heading {
   font-family: var(--font-inter);
   text-transform: uppercase;
+  background-color: var(--colors-blue);
   background-image: linear-gradient(
-    135deg,
-    var(--colors-pink) 0%,
-    var(--colors-purple) 100%
+    43deg,
+    var(--colors-blue) 0%,
+    var(--colors-pink) 46%,
+    var(--colors-yellow) 100%
   );
+
   background-size: 100%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
