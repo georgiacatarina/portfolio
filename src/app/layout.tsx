@@ -50,7 +50,7 @@ export default function RootLayout({
         </header>
         {children}
         <footer className={styles.footer}>
-          <p className={styles.gradientText}>Georgia Dev © 2025</p>
+          <p className={styles.gradientText}>Georgia Dev © {new Date().getFullYear()}</p>
         </footer>
       </body>
     </html>
