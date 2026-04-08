@@ -23,20 +23,28 @@ export default function Home() {
                 <strong className={styles.gradientText}>Georgia!</strong>
               </h2>
               <p className={styles.text}>
-                Sou desenvolvedora <strong>há mais de 10 anos</strong> onde tive
-                a oportunidade de atuar em TVs, startups e agências, sempre
-                buscando entregar soluções criativas, de qualidade e explorando
-                formas de inovar e melhorar os processos. Atualmente, faço parte
-                do time do ge.globo, com desenvolvimento Front-end de aplicações
-                para o portal e ferramentas web para os times de editores e
-                redação.
-                <br />
-                Minha trajetória envolve o desenvolvimento de sites, SPAs e apps
-                web, com domínio de HTML5, CSS3, JavaScript (TS), frameworks
-                como Vue.js e libs como React, além de ferramentas como Vite,
-                Webpack e Git. Tenho experiência na integração com APIs REST,
-                como GraphQL e backend em PHP e Python, além de aplicar práticas
-                de acessibilidade web (WCAG) nos projetos em que participo.
+                Sou desenvolvedora front-end há mais de <strong>10 anos</strong>
+                , criando sites, SPAs e aplicações web. <br />
+                Hoje trabalho principalmente com{" "}
+                <strong>React (Next.js), TypeScript e Vue.js</strong>, sempre
+                buscando construir interfaces{" "}
+                <strong>rápidas, responsivas e performáticas</strong>. Tenho uma
+                base bem sólida em{" "}
+                <strong>HTML, CSS (SASS, LESS) e JavaScript</strong>, e me
+                preocupo com <strong>boas práticas e acessibilidade</strong>{" "}
+                (WCAG 2.2 e WAI-ARIA). <br />
+                No dia a dia, faço bastante integração com{" "}
+                <strong>APIs REST</strong> e utilizo ferramentas como{" "}
+                <strong>Vite, Webpack e Git</strong>. Também já tive
+                experiências com back-end em{" "}
+                <strong>PHP, Python (Django) e Node.js</strong>. <br />
+                Gosto de ir além do código e contribuir com decisões de{" "}
+                <strong>arquitetura, design e UX/UI</strong>, pensando em
+                experiências mais intuitivas e inclusivas. <br />
+                <strong>Curiosidade:</strong> já trabalhei com{" "}
+                <strong>Flash e ActionScript</strong> 😄 então já vi algumas
+                eras do front-end passando — o que me ajuda a ter uma visão mais
+                ampla e adaptável hoje.
               </p>
             </div>
           </div>
@@ -125,6 +133,21 @@ export default function Home() {
           <div className={styles.carreer}>
             <h2 className={styles.title}>Trajetória Profissional</h2>
             <div className={styles.content}>
+              <h3 className={styles.subTitle}>Senior Software Developer</h3>
+              <p className={styles.text}>
+                <strong>Simoa</strong> -
+                <a
+                  href="https://simoa.com/"
+                  target="_blank"
+                  title="Site da Simoa, abre em nova janela"
+                >
+                  {" "}
+                  simoa.com
+                </a>
+                <br />
+                Nov 2025 - Atual
+              </p>
+              <br />
               <h3 className={styles.subTitle}>Software Developer</h3>
               <p className={styles.text}>
                 <strong>Globo</strong> -
@@ -137,7 +160,7 @@ export default function Home() {
                   ge.globo
                 </a>
                 <br />
-                Abr 2022 - Atual
+                Abr 2022 - Nov 2025
               </p>
               <br />
               <h3 className={styles.subTitle}>Front-end Developer</h3>
